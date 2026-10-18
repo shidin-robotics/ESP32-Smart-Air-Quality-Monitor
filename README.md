@@ -1,23 +1,24 @@
 # ESP32-Smart-Air-Quality-Monitor
- IoT-based air quality monitoring using ESP32 and a live web dashboard.
+ IoT-based air quality monitoring using ESP32 and a live web dashboard, telegram bot.
 
 #connection 
-#define MQ135_PIN 34
 
-#define DHT_PIN 4
+MQ135_PIN 34
 
-#define DHT_TYPE DHT11
+DHT_PIN 4
 
-#define BUZZER_PIN 25
+DHT_TYPE DHT11
 
-#define RED_LED 26
+BUZZER_PIN 25
 
-#define GREEN_LED 27
+RED_LED 26
 
-#define PMS_RX_PIN 16
+GREEN_LED 27
 
-#define PMS_TX_PIN 17
+PMS_RX_PIN 16
 
-#define LCD_SDA 21
+PMS_TX_PIN 17
 
-#define LCD_SCL 22
+LCD_SDA 21
+
+LCD_SCL 22
